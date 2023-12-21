@@ -1,3 +1,5 @@
+DOCKER_BUILDKIT=1 docker build
+
 # Base image
 ARG BASE_IMAGE=quay.io/centos/centos:stream8
 FROM $BASE_IMAGE as base
